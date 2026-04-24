@@ -25,6 +25,8 @@
     "@biomejs/biome": "2.4.12",
     "@changesets/cli": "^2.31.0",
     "@mariozechner/pi-coding-agent": "^0.70.2",
+    "@types/bun": "latest",
+    "@types/node": "^24.0.1",
     "typescript": "^5.9.3"
   }
 }
