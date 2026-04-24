@@ -2,4 +2,4 @@
 "pi-ext-cursor-rules": patch
 ---
 
-init
+dep upgrade
