@@ -1,5 +1,4 @@
 name: release
-
 on:
   push:
     branches:
@@ -48,7 +47,7 @@ jobs:
           fi
 
           echo "changed=true" >> "$GITHUB_OUTPUT"
-          VERSION=$(node -p "JSON.parse(require('node:fs').readFileSync('package.json','utf8')).version")
+          VERSION=$(jq -r .version package.json)
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push version bump
