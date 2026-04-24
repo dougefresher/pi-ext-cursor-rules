@@ -1,0 +1,30 @@
+{
+  "name": "pi-cursor-rules",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cursor-style project rules (.cursor/rules/) for pi-coding-agent",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougefresher/pi-ext-cursor-rules"
+  },
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "check": "biome check --write --error-on-warnings . && tsc --noEmit",
+    "changeset": "changeset add --message"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.12",
+    "@changesets/cli": "^2.31.0",
+    "@mariozechner/pi-coding-agent": "latest",
+    "typescript": "^5.9.3"
+  }
+}
