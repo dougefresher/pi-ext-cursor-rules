@@ -1,6 +1,6 @@
 {
   "name": "pi-ext-cursor-rules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Cursor-style project rules (.cursor/rules/) for pi-coding-agent",
   "main": "index.ts",
