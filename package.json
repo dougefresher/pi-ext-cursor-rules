@@ -1,5 +1,5 @@
 {
-  "name": "pi-cursor-rules",
+  "name": "pi-ext-cursor-rules",
   "version": "0.1.0",
   "private": true,
   "description": "Cursor-style project rules (.cursor/rules/) for pi-coding-agent",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.12",
     "@changesets/cli": "^2.31.0",
-    "@mariozechner/pi-coding-agent": "latest",
+    "@mariozechner/pi-coding-agent": "^0.70.2",
     "typescript": "^5.9.3"
   }
 }
