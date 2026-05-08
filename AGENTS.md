@@ -3,7 +3,6 @@
 ## Purpose
 
 This repo implements a Pi extension that applies Cursor-style project rules from `.cursor/rules/`.
-
 Reference spec: `./cursor-rules.md` and https://cursor.com/docs/rules.md
 
 ## Code Flow (`index.ts`)
