@@ -1,5 +1,11 @@
 # pi-ext-cursor-rules
 
+## 1.0.1
+
+### Patch Changes
+
+- 40ec86c:
+
 ## 1.0.0
 
 ### Major Changes
