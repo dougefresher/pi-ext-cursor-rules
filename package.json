@@ -9,6 +9,12 @@
     "url": "https://github.com/dougefresher/pi-ext-cursor-rules"
   },
   "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "ai"
+  ],
   "pi": {
     "extensions": [
       "./index.ts"
@@ -24,9 +30,9 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.12",
     "@changesets/cli": "^2.31.0",
-    "@earendil-works/pi-coding-agent": "^0.74.0",
+    "@earendil-works/pi-coding-agent": "^0.80.7",
     "@types/bun": "latest",
-    "@types/node": "^24.12.3",
+    "@types/node": "^24.13.3",
     "typescript": "^5.9.3"
   }
 }
